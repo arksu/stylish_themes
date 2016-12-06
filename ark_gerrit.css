@@ -1,0 +1,456 @@
+/*  review page:*/
+/*      Header Sections:    */
+
+.infoBlock td {
+    color: #567;
+}
+/*      Commit Sections:    */
+
+.GKSE20JDA4 {
+    color: #789;
+    background: #345;
+}
+.GKSE20JDP3 {
+    background: #456;
+    border: 0px solid #000;
+    color: #9ab;
+}
+/*      Reviewer Sections:  */
+
+.infoTable td.header {
+    background: #567;
+    color: #9ab;
+}
+.infoTable td {
+    border: 0px solid #000;
+    background: #345;
+}
+.infoTable td.notVotable {
+    background: #567;
+}
+.infoTable,
+.infoBlock {
+    border: 0px solid #000;
+}
+.addMemberTextBox {
+    background: #345;
+    color: #DA6;
+    border: 1px solid #555
+}
+.missingApproval {
+    color: #456;
+}
+/*      dependencies:*/
+
+.changeTable .leftMostCell {
+    background: #456 !important;
+}
+.changeTable .outdated {
+    background: #345 !important;
+}
+.changeTable a.gwt-InlineHyperlink {
+    color: #234 !important;
+}
+.changeTable .sectionHeader {
+    background: #456;
+    color: #789;
+    border: 0px solid #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*      Reference Version:*/
+
+body,
+table td,
+select {
+    color: #BD82A0;
+}
+.gwt-DisclosurePanel .header,
+.gwt-DisclosurePanel .header a,
+.gwt-DisclosurePanel .header td {
+    color: #678CB1;
+}
+body table td select.gwt-ListBox {
+    background: #345;
+    border: 1px solid #555;
+    color: #DA6;
+}
+span.gwt-InlineLabel {
+    color: #678;
+}
+/*      Download:*/
+
+.downloadLinkHeader {
+    background: #345;
+    border: 0px solid #000;
+}
+a.downloadLink {
+    background: #345;
+    color: #DA6;
+    border: 0px solid #345;
+    border-bottom: 1px solid #999;
+    margin-right: 5px;
+}
+a.downloadLink:hover {
+    background: #567;
+    color: #DA6;
+    border: 0px solid #345;
+}
+/*      Buttons:*/
+
+button.gwt-Button {
+    background: #345;
+    border: 0px solid #000;
+    border-bottom: 1px solid #666;
+    color: #DA6;
+}
+button.gwt-Button:hover {
+    background: #567;
+    border: 0px solid #000;
+    color: #DA6;
+}
+/*      Comments:*/
+
+.commentPanelBorder {
+    border: 0px solid #000;
+    background: #345;
+    margin: 5px;
+}
+.commentPanelAuthorCell {
+    color: #567;
+}
+/*      Patchset sections:  */
+
+.infoBlock td.topmost {
+    border: 0px solid #000;
+}
+.infoBlock td {
+    border: 0px solid #000;
+}
+/*      Comments:   */
+
+.commentPanelSummary {
+    color: #abc;
+}
+/*  Frames: */
+
+body,
+.gwt-DialogBox .dialogMiddleCenter {
+    background: #234;
+    color: #eff
+}
+a,
+a:visited {
+    color: #da6
+}
+.gwt-TabBar .gwt-TabBarItem {
+    color: #BD82A0
+}
+.patchContentTable td.fileColumnHeader {
+    background: #234;
+    color: #678CB1;
+}
+.GKSE20JDFFB>a {
+    background: transparent;
+}
+.unifiedTable,
+.sideBySideScreenSideBySideTable {
+    border: 0px;
+}
+.lineNumber.fileColumnHeader {
+    border: 0px;
+}
+/*  Editor sections:    */
+
+table.patchContentTable {
+    border-bottom: 0px solid #000;
+}
+.infoBlock td.header {
+    background: #345;
+    color: #678CB1;
+    border: 0px solid #000;
+}
+.gwt-DisclosurePanel .content {
+    border-left: 3px solid #456;
+}
+.blockHeader {
+    background: #345
+}
+.changeTable tr:nth-child(even) {
+    border: 0px solid #000;
+}
+.changeTable .dataCell {
+    border: 0px solid #000;
+}
+.changeTable .changeTypeCell {
+    border: 0px solid #000;
+}
+.changeTable tr:nth-child(odd) {
+    background: #345;
+    border: 0px solid #000;
+}
+.changeTable .leftMostCell {
+    background: #567 !important;
+    border: 0px solid #000;
+}
+.changeTable .activeRow,
+.accountDashboard.changeTable .activeRow,
+.accountDashboard.changeTable .activeRow a {
+    background: #234 !important;
+    border: 0px solid #000;
+    color: #BD82A0;
+}
+.changeTable a.gwt-InlineHyperlink {
+    color: #DA6 !important;
+}
+.changeTable .iconHeader {
+    background: #345;
+    border: 0px solid #000;
+}
+.changeTable .dataHeader {
+    background: #345;
+    color: #678CB1;
+    border: 0px solid #000;
+}
+td.fileLine {
+    background: #252525;
+    border: 0px;
+    border-bottom: 0px solid #000;
+}
+.patchContentTable .activeRow .fileLine,
+.patchContentTable .activeRow .diffText,
+.patchContentTable .activeRow td.commentHolder,
+.patchContentTable .activeRow .wdc,
+.patchContentTable .activeRow .wdd,
+.patchContentTable .activeRow .wdi,
+.patchContentTable .activeRow .iconCellOfFileCommentRow,
+.patchContentTable .activeRow td.commentHolder.commentPanelLast {
+    border-bottom: 0px;
+}
+.patchContentTable .skipLine .iconCell,
+.patchContentTable .skipLine {
+    background: #345;
+    color: #eff;
+}
+.patchContentTable a.skipLine {
+    color: #da6;
+    border-bottom: 0px solid #000;
+}
+.wdi {
+    background: #373;
+    border-bottom: 0px solid #000;
+}
+.fileLineINSERT,
+.fileLineINSERT .wdc {
+    background: #242;
+    border-bottom: 0px solid #000;
+}
+.patchContentTable .wdi {
+    border-bottom: 0px solid #000;
+}
+.patchContentTable .wdd {
+    border-bottom: 0px solid #000;
+}
+.fileLineDELETE,
+.fileLineDELETE .wdc {
+    background: #644;
+    border-bottom: 0px solid #000;
+}
+.wdd {
+    background: #955;
+    border-bottom: 0px solid #000;
+}
+td.fileLine.wdi {
+    background: #373;
+    border: 0px;
+    border-bottom: 0px solid #000;
+}
+tr.activeRow td.fileLine {
+    background: #3B3A30;
+    border: 0px;
+    border-bottom: 0px solid #000;
+}
+tr.activeRow td.fileLine.wdi {
+    background: #6a7;
+    border: 0px;
+}
+td.fileLine.fileLineCONTEXT {
+    border: 0px;
+    border-bottom: 0px solid #000;
+}
+.com {
+    color: #BD82A0;
+}
+.pln {
+    color: #F3F2F1;
+}
+.pun {
+    color: #B7E2E8;
+}
+.atv {
+    color: #EC7600;
+}
+.str {
+    color: #EC7600;
+}
+.atn {
+    color: #678CB1;
+}
+.typ {
+    color: #678CB1;
+}
+.lit {
+    color: #CDFF22
+}
+.kwd {
+    color: #93C763
+}
+.tag {
+    color: #93C763
+}
+.vt {
+    color: #999;
+}
+.vt .pln {
+    color: #999;
+    font-size: 0px;
+}
+.vt .pun {
+    color: #999;
+    font-size: 0px;
+}
+
+/* CODE EDITOR ###################################################################### */
+.com-google-gerrit-client-diff-SideBySide_BinderImpl_GenCss_style-sbs,
+.com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-patchSetNav {
+    background-color: #333;
+}
+
+.com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-difftable .CodeMirror {
+    color: #ccc;
+}
+.cm-s-eclipse span.cm-keyword {
+    color: #e69a55;  
+}
+.cm-s-eclipse span.cm-variable-2, .cm-s-eclipse span.cm-variable-3 {
+    color : #fdd55b;
+}
+.cm-s-eclipse span.cm-operator, 
+.cm-s-eclipse span.cm-property, 
+.cm-s-eclipse span.cm-def,
+.cm-s-eclipse span.cm-variable
+{
+    color: #ccc;
+}
+.cm-s-eclipse span.cm-meta {
+    color: #cec761
+}
+.cm-s-eclipse span.cm-string {
+    color: #6ba06d;   
+}
+.cm-s-eclipse span.cm-atom {
+    color: #e69a55;
+}
+.cm-s-eclipse span.cm-number {
+    color: #9765d6;
+}
+.cm-s-eclipse span.cm-qualifier {
+    color: #e8bf6a;
+}
+.cm-s-eclipse span.cm-tag {
+    color: #e69a55;
+}
+.cm-s-eclipse span.cm-string-2 {
+    color: #f50;
+}
+.cm-s-eclipse span.cm-comment {
+    color: #50b382;
+}
+.cm-s-eclipse span.cm-builtin {
+    color: #e69a55;
+}
+    
+
+.com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-a .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-diff {
+    background-color: #731818;
+}
+.com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-b .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-diff {
+    background-color: #14632d;
+}
+.com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-b .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-intralineBg {
+        background-color: #275d47;
+}
+.CodeMirror {
+    background-color: #333;
+    font:    12px Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+div.net-codemirror-lib-CodeMirror-Style-activeLine div.CodeMirror-linenumber {
+    background-color: #27e624 !important;
+    color:            #555;
+}
+.com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-a .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-intralineBg {
+    background-color: #3f516b;
+}
+.com-google-gerrit-client-diff-SkipBar_BinderImpl_GenCss_style-skipBar {
+    background-color: #4e5b69;
+}
+/* MAIN ########################################################################## */
+.com-google-gerrit-client-diff-PatchSetSelectBox_BinderImpl_GenCss_style-selected {
+    background-color: #317f75;
+}
+.com-google-gerrit-client-change-FileTable-FileTableCss-pathColumn a {
+    color: #7bbdb8;
+}
+.com-google-gerrit-client-change-FileTable-FileTableCss-pathColumn a:visited {
+    color: #da6;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader,
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerLine,
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-subjectLine,
+.menuScreenMenuBar .menuItem.activeRow, .menuItem.activeRow,
+.createProjectPanel,
+.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel,
+.gwt-TabBarRest
+{
+    background-color: #4e5b69;
+    color: #ccc;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button {
+    background-color: #387482;
+    color: #ccc;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoTable th {
+    color: #ccc;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-replyBox {
+    background-color: #4e5b69;
+}
+
+a:hover {
+    color: #ffa35e;
+}
+.changeTable tr:hover {
+    background-color: #585049;
+}
+.infoBlock td {
+    color: #ccc;
+}
+.changeTable a.gwt-InlineHyperlink, .changeTable a.gwt-Anchor {
+    color: #ccc !important;
+}
+.gwt-TextArea, .gwt-TextBox, .gwt-SuggestBox, .searchPanel .searchTextBox, .groupNameTextBox,
+input {
+    background-color: #4c4f54;
+    color: #ccc;
+}
+.specialBranchDataCell, .specialBranchIconCell {
+    background: #4e5b69;
+    background-color: #4e5b69;
+    border: 1px solid #222b35;
+}
+.menuScreenMenuBar, .addBranch, .addSshKeyPanel {
+    background: #4e5b69;
+}    
+.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-activeRow {
+    background-color: #548851 !important;
+}
