@@ -454,3 +454,19 @@ input {
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-activeRow {
     background-color: #548851 !important;
 }
+.rpcStatus {
+    background-color: #12763b !important;
+}
+.com-google-gerrit-client-admin-AccessSectionEditor_BinderImpl_GenCss_style-normal {
+    background-color: #414046 !important;
+}
+.com-google-gerrit-client-admin-AccessSectionEditor_BinderImpl_GenCss_style-header:hover, .com-google-gerrit-client-admin-AccessSectionEditor_BinderImpl_GenCss_style-addContainer:hover {
+  background-color : #363144;
+}
+.com-google-gerrit-client-admin-PermissionEditor_BinderImpl_GenCss_style-header:hover, .com-google-gerrit-client-admin-PermissionEditor_BinderImpl_GenCss_style-addContainer:hover {
+  background-color : #363144;
+}
+.com-google-gerrit-client-admin-PermissionRuleEditor_BinderImpl_GenCss_style-panel:hover {
+  background-color : #363144;
+}
+
