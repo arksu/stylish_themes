@@ -329,9 +329,8 @@ td.fileLine.fileLineCONTEXT {
 .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-difftable .CodeMirror {
     color: #ccc !important;
 }
-/*.cm-s-default .cm-variable-2 {*/
-/*    color: #7730e6 !important;*/
-/*}*/
+
+/* LANG STYLE */
 .cm-keyword {
     color: #cc7832 !important;
 }
@@ -364,7 +363,7 @@ td.fileLine.fileLineCONTEXT {
     color: #cc7832 !important;
 }
 .cm-number {
-    color: #9765d6 !important;
+    color: #6897BB !important;
 }
 .cm-qualifier {
     color: #e8bf6a !important;
@@ -383,14 +382,16 @@ td.fileLine.fileLineCONTEXT {
 }
 
 
+/* back DEL */
 .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-a .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-diff {
     background-color: #731818;
 }
+/* back ADD */
 .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-b .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-diff {
-    background-color: #287f3c;
+    background-color: #184622;
 }
 .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-b .com-google-gerrit-client-diff-SideBySideTable_BinderImpl_GenCss_style-intralineBg {
-    background-color: #2b4d3e;
+    background-color: #3b4842;
 }
 .CodeMirror {
     background-color: #333;
