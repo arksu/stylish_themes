@@ -1,3 +1,17 @@
-body {
+body, html {
+    background-color: #222 ! important;
+    color: #999
+}
+img {
     filter: invert(1);
+}
+
+#legend .oddrow {
+    background-color: #424242;
+}
+#legend .evenrow {
+    background-color: #212325;
+}
+#header, #footer {
+    background-color: #222 ! important;
 }
